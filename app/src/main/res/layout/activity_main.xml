@@ -8,16 +8,19 @@
     <ImageView
         android:src="@drawable/androidparty"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
 
     <TextView
-        android:text="Happy Birthday Mummy!"
+        android:text="Happy Birthday, Mummy!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:textSize="24sp"
-        android:paddingLeft="8dp"/>
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:padding="10dp"/>
 
     <TextView
         android:text="From, Nikhil"
@@ -25,6 +28,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:textSize="24sp"
-        android:paddingRight="8dp"/>
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:padding="10dp"/>
 </RelativeLayout>
